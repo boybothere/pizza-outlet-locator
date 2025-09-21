@@ -315,7 +315,7 @@ const storeList = [
         "type": "Feature",
         "geometry": {
             "type": "Point",
-            "coordinates": [73.7622, 15.2993]
+            "coordinates": [73.8314, 15.4909]
         },
         "properties": {
             "name": "Domino's Panaji",
@@ -328,7 +328,7 @@ const storeList = [
         "type": "Feature",
         "geometry": {
             "type": "Point",
-            "coordinates": [73.7536, 15.2832]
+            "coordinates": [73.8067, 15.4589]
         },
         "properties": {
             "name": "Pizza Hut Miramar",
@@ -341,7 +341,7 @@ const storeList = [
         "type": "Feature",
         "geometry": {
             "type": "Point",
-            "coordinates": [73.8313, 15.2768]
+            "coordinates": [73.8134, 15.5951]
         },
         "properties": {
             "name": "Pizza Corner Mapusa",
