@@ -6,3 +6,26 @@ const attribution = '&copy; <a href="https://www.openstreetmap.org/copyright">Op
 
 const tiles = L.tileLayer(tileUrl, { attribution });
 tiles.addTo(map);
+
+function generateList() {
+    const ul = document.querySelector('.list');
+
+    storeList.forEach((shop) => {
+        const li = document.createElement('li');
+        const div = document.createElement('div');
+        const a = document.createElement('a');
+        const p = document.createElement('p');
+
+        div.classList.add('shop-list');
+        a.innerText = shop.properties.name;
+        a.href = '#';
+        p.innerText = shop.properties.address;
+
+        div.appendChild(a);
+        div.appendChild(p);
+        li.appendChild(div);
+        ul.appendChild(li);
+    })
+}
+
+generateList();
