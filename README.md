@@ -3,7 +3,7 @@
 Interactive web application to find pizza stores across India.
 
 ## Live Demo
-[**View Live Site →**](https://boybothere.github.io/pizza-store-locator)
+[**View Live Site →**](https://boybothere.github.io/pizza-outlet-locator/)
 
 ## Features
 
